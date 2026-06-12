@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Training data (downloaded shards — regenerate with data_download.py)
+data/
+
+# Checkpoints / optimizer state / metadata
+*.safetensors
+*.meta.json
+checkpoint.*
+tiny_ckpt*
+
+# Logs
+*.log
+
+# Vendored third-party source (separate clone with its own .git)
+triton/
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.swp
+*~
+
+# macOS
+.DS_Store
